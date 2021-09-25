@@ -1,6 +1,6 @@
-/* * {
+* {
     scroll-behavior: smooth;
-} */
+}
 
 .app {
     min-height: 100vh;
@@ -16,8 +16,7 @@
     }
 }
 
-
-/* .pageTitle {
+.pageTitle {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -32,4 +31,4 @@
     .pageTitle {
         font-size: 6.4vw;
     }
-} */
+}
