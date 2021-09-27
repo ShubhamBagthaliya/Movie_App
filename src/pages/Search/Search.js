@@ -17,7 +17,7 @@ import {
     const [type, setType] = useState(0);
     const [searchText, setSearchText] = useState("");
     const [page, setPage] = useState(1);
-    const [content, setContent] = useState([]);
+    const [content, setContent] = useState();
     const [numOfPages, setNumOfPages] = useState();
   
     const darkTheme = createMuiTheme({
