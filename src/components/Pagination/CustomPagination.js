@@ -23,7 +23,7 @@ export default function CustomPagination({ setPage, numOfPages = 10 }) {
         marginTop: 10,
       }}
     >
-      <ThemeProvider theme={darkTheme}>
+      <ThemeProvider them Movie={darkTheme}>
         <Pagination
           onChange={(e) => handlePageChange(e.target.textContent)}
           count={numOfPages}
