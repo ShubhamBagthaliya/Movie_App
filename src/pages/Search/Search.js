@@ -104,6 +104,7 @@ import {
         {numOfPages > 1 && (
           <CustomPagination setPage={setPage} numOfPages={numOfPages} />
         )}
+        
       </div>
     );
   };
